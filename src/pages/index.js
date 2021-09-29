@@ -1,12 +1,16 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
+      <>
         <main>
           <title>Home Page</title>
           <h1>Welcome to IBC Dev!</h1>
-          <p>This is being made with Gatsby.js</p>
+          <Link to="/about">About</Link>
+          <p>This resource is being made with Gatsby.js</p>
         </main>
+      </>
       )
     }
 
